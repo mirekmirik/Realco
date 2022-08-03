@@ -1,0 +1,249 @@
+@import "normalize.scss"
+@import "reset.scss"
+
+
+*
+    box-sizing: border-box
+
+a
+    text-decoration: none
+    // color: #EEEEEE   
+    font-size: 14px
+
+
+.container-full
+    max-width: 1440px
+    margin: 0 auto
+
+.container
+    max-width: 1280px
+    margin: 0 auto
+
+.banner
+    max-width: 1440px
+    margin: 0 auto
+    height: 40px
+    background-color: #939878
+
+.banner-container
+    display: flex
+    flex-direction: row
+    width: 1360px
+    margin: 0 auto
+    height: 40px
+    &__text
+        width: 100%
+        display: flex
+        justify-content: center
+        align-items: center
+        color: #FFFFFF
+    &__cancel-img-block
+        display: flex
+        align-items: center
+
+
+.header
+    height: 74px
+    padding: 16px 0px
+    &__container
+        display: flex
+        width: 1280px
+        height: 42px
+        justify-content: space-between
+        align-items: center
+
+    
+.nav
+    display: flex
+    flex-direction: row
+    align-items: center
+    padding-left: 16px
+    &__list
+        // padding-left: 16px
+        margin-right: 8px
+        display: flex
+        flex-direction: row
+        align-items: center
+    &__item
+        margin-right: 16px
+        &:last-child
+            margin-right: 0px
+        &-home
+            // margin-right: 32px
+        &-about
+            margin-right: 32px
+        
+    &__item-icon
+        margin-right: 4px
+    &__item_icon-text
+        margin-right: 12px
+        display: flex
+    &__img-properties
+        
+    &__item-btn-2
+        padding-left: 16px
+        padding-right: 16px
+        margin-right: 8px
+        display: flex
+        width: 108px
+        height: 40px
+        align-items: center
+
+    &__item-btn-1
+        display: flex
+        flex-direction: row
+        align-items: center
+        // margin-right: 16px
+        padding-left: 16px
+        height: 40px
+        width: 135px
+    &__buttons
+        display: flex
+        flex-direction: row
+
+    &__btn-card
+        width: 100px
+        height: 42px
+        border-radius: 6px
+        border: 1px solid #E7E8E3
+        background: #FFFFF
+        box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.08)
+        margin-right: 16px
+
+
+    &__btn
+        width: 159px
+        height: 42px
+        background: #CF6F49
+        border: 1px solid #CF6F49
+        border-radius: 6px
+        color: #ffffff
+
+
+
+.second-section
+
+    &__content-wrapper
+        display: flex
+        flex-direction: row
+
+    &__left-wrapper
+        display: flex
+        flex-direction: column
+        width: 720px
+        height: 686px
+        justify-content: flex-end
+    &__text-container
+        width: 560px
+        height: 367px
+        &_wrapper
+            display: flex
+            justify-content: center
+            margin-bottom: 29px
+    &__top-text
+        display: flex
+        align-items: center
+        justify-content: center
+        font-family: 'Roboto'
+        font-style: normal
+        font-weight: 400
+        font-size: 14px
+        line-height: 21px
+        color: #2A2C1F
+        width: 171px
+        height: 29px
+        background: #E7E8E3
+        border-radius: 32px
+        margin-bottom: 20px
+    &__title
+        width: 516px
+        height: 135px
+        font-family: 'Roboto'
+        font-style: normal
+        font-weight: 400
+        font-size: 56px
+        line-height: 67px
+        color: #2A2C1F
+        margin-bottom: 21px
+    &__desc
+        font-family: 'Roboto'
+        font-style: normal
+        font-weight: 400
+        width: 503px
+        height: 90px
+        font-size: 20px
+        line-height: 30px
+        color: #65665C
+        margin-bottom: 21.41px
+    &__input-search
+        position: relative
+        width: 485px
+        height: 50px
+        input
+            width: 310px
+            height: 48px
+            background: #FFFFFF
+            border: 1px solid #E7E8E3
+            box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.08)
+            border-radius: 6px
+            padding-left: 56px
+            margin-right: 16px
+            font-family: 'Roboto'
+            font-style: normal
+            font-weight: 400
+            font-size: 20px
+            line-height: 30px
+            /* identical to box height, or 150% */
+
+
+            color: #65665C
+        button
+            width: 154px
+            height: 50px
+            background-color: #CF6F49
+            border: 1px solid #CF6F49
+            border-radius: 6px
+            color: #FFFFFF
+            font-family: 'Roboto'
+            font-style: normal
+            font-weight: 400
+            font-size: 20px
+            line-height: 30px
+    &__icon-box
+        position: absolute
+        top: 16px
+        left: 19px
+    
+    &__first-img
+        margin-bottom: 12.58px
+        height: 146px
+
+    &__second-img
+        display: flex
+        justify-content: flex-end
+        // width: 100%
+        height: 135px
+        
+    &__right-wrapper
+        display: flex
+
+
+.third-section
+    &__content-box
+        height: 118px
+        display: flex
+        justify-content: space-between
+        align-items: flex-end
+        p
+            display: flex
+            align-items: flex-end
+    &__img-box
+        height: 54px
+        display: flex
+        align-items: center
+        img
+            margin-right: 32px
+            &:last-child
+                margin-right: 0px
+    // display: flex
+    // flex-direction: row
