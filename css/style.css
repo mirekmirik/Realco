@@ -6,8 +6,10 @@
  * 2. Prevent adjustments of font size after orientation changes in iOS.
  */
 html {
-  line-height: 1.15; /* 1 */
-  -webkit-text-size-adjust: 100%; /* 2 */
+  line-height: 1.15;
+  /* 1 */
+  -webkit-text-size-adjust: 100%;
+  /* 2 */
 }
 
 /* Sections
@@ -42,9 +44,12 @@ h1 {
  * 2. Show the overflow in Edge and IE.
  */
 hr {
-  box-sizing: content-box; /* 1 */
-  height: 0; /* 1 */
-  overflow: visible; /* 2 */
+  box-sizing: content-box;
+  /* 1 */
+  height: 0;
+  /* 1 */
+  overflow: visible;
+  /* 2 */
 }
 
 /**
@@ -52,8 +57,10 @@ hr {
  * 2. Correct the odd `em` font sizing in all browsers.
  */
 pre {
-  font-family: monospace, monospace; /* 1 */
-  font-size: 1em; /* 2 */
+  font-family: monospace, monospace;
+  /* 1 */
+  font-size: 1em;
+  /* 2 */
 }
 
 /* Text-level semantics
@@ -70,10 +77,12 @@ a {
  * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.
  */
 abbr[title] {
-  border-bottom: none; /* 1 */
-  text-decoration: underline; /* 2 */
-  -webkit-text-decoration: underline dotted;
-          text-decoration: underline dotted; /* 2 */
+  border-bottom: none;
+  /* 1 */
+  text-decoration: underline;
+  /* 2 */
+  text-decoration: underline dotted;
+  /* 2 */
 }
 
 /**
@@ -91,8 +100,10 @@ strong {
 code,
 kbd,
 samp {
-  font-family: monospace, monospace; /* 1 */
-  font-size: 1em; /* 2 */
+  font-family: monospace, monospace;
+  /* 1 */
+  font-size: 1em;
+  /* 2 */
 }
 
 /**
@@ -142,10 +153,14 @@ input,
 optgroup,
 select,
 textarea {
-  font-family: inherit; /* 1 */
-  font-size: 100%; /* 1 */
-  line-height: 1.15; /* 1 */
-  margin: 0; /* 2 */
+  font-family: inherit;
+  /* 1 */
+  font-size: 100%;
+  /* 1 */
+  line-height: 1.15;
+  /* 1 */
+  margin: 0;
+  /* 2 */
 }
 
 /**
@@ -153,7 +168,8 @@ textarea {
  * 1. Show the overflow in Edge.
  */
 button,
-input { /* 1 */
+input {
+  /* 1 */
   overflow: visible;
 }
 
@@ -162,7 +178,8 @@ input { /* 1 */
  * 1. Remove the inheritance of text transform in Firefox.
  */
 button,
-select { /* 1 */
+select {
+  /* 1 */
   text-transform: none;
 }
 
@@ -170,9 +187,9 @@ select { /* 1 */
  * Correct the inability to style clickable types in iOS and Safari.
  */
 button,
-[type=button],
-[type=reset],
-[type=submit] {
+[type="button"],
+[type="reset"],
+[type="submit"] {
   -webkit-appearance: button;
 }
 
@@ -180,9 +197,9 @@ button,
  * Remove the inner border and padding in Firefox.
  */
 button::-moz-focus-inner,
-[type=button]::-moz-focus-inner,
-[type=reset]::-moz-focus-inner,
-[type=submit]::-moz-focus-inner {
+[type="button"]::-moz-focus-inner,
+[type="reset"]::-moz-focus-inner,
+[type="submit"]::-moz-focus-inner {
   border-style: none;
   padding: 0;
 }
@@ -191,9 +208,9 @@ button::-moz-focus-inner,
  * Restore the focus styles unset by the previous rule.
  */
 button:-moz-focusring,
-[type=button]:-moz-focusring,
-[type=reset]:-moz-focusring,
-[type=submit]:-moz-focusring {
+[type="button"]:-moz-focusring,
+[type="reset"]:-moz-focusring,
+[type="submit"]:-moz-focusring {
   outline: 1px dotted ButtonText;
 }
 
@@ -211,12 +228,18 @@ fieldset {
  *    `fieldset` elements in all browsers.
  */
 legend {
-  box-sizing: border-box; /* 1 */
-  color: inherit; /* 2 */
-  display: table; /* 1 */
-  max-width: 100%; /* 1 */
-  padding: 0; /* 3 */
-  white-space: normal; /* 1 */
+  box-sizing: border-box;
+  /* 1 */
+  color: inherit;
+  /* 2 */
+  display: table;
+  /* 1 */
+  max-width: 100%;
+  /* 1 */
+  padding: 0;
+  /* 3 */
+  white-space: normal;
+  /* 1 */
 }
 
 /**
@@ -237,17 +260,19 @@ textarea {
  * 1. Add the correct box sizing in IE 10.
  * 2. Remove the padding in IE 10.
  */
-[type=checkbox],
-[type=radio] {
-  box-sizing: border-box; /* 1 */
-  padding: 0; /* 2 */
+[type="checkbox"],
+[type="radio"] {
+  box-sizing: border-box;
+  /* 1 */
+  padding: 0;
+  /* 2 */
 }
 
 /**
  * Correct the cursor style of increment and decrement buttons in Chrome.
  */
-[type=number]::-webkit-inner-spin-button,
-[type=number]::-webkit-outer-spin-button {
+[type="number"]::-webkit-inner-spin-button,
+[type="number"]::-webkit-outer-spin-button {
   height: auto;
 }
 
@@ -255,15 +280,17 @@ textarea {
  * 1. Correct the odd appearance in Chrome and Safari.
  * 2. Correct the outline style in Safari.
  */
-[type=search] {
-  -webkit-appearance: textfield; /* 1 */
-  outline-offset: -2px; /* 2 */
+[type="search"] {
+  -webkit-appearance: textfield;
+  /* 1 */
+  outline-offset: -2px;
+  /* 2 */
 }
 
 /**
  * Remove the inner padding in Chrome and Safari on macOS.
  */
-[type=search]::-webkit-search-decoration {
+[type="search"]::-webkit-search-decoration {
   -webkit-appearance: none;
 }
 
@@ -272,8 +299,10 @@ textarea {
  * 2. Change font properties to `inherit` in Safari.
  */
 ::-webkit-file-upload-button {
-  -webkit-appearance: button; /* 1 */
-  font: inherit; /* 2 */
+  -webkit-appearance: button;
+  /* 1 */
+  font: inherit;
+  /* 2 */
 }
 
 /* Interactive
@@ -352,7 +381,7 @@ blockquote, q {
 
 blockquote:before, blockquote:after,
 q:before, q:after {
-  content: "";
+  content: '';
   content: none;
 }
 
@@ -394,6 +423,7 @@ a {
   margin: 0 auto;
   height: 40px;
 }
+
 .banner-container__text {
   width: 100%;
   display: flex;
@@ -401,6 +431,7 @@ a {
   align-items: center;
   color: #FFFFFF;
 }
+
 .banner-container__cancel-img-block {
   display: flex;
   align-items: center;
@@ -410,6 +441,7 @@ a {
   height: 74px;
   padding: 16px 0px;
 }
+
 .header__container {
   display: flex;
   width: 1280px;
@@ -424,28 +456,35 @@ a {
   align-items: center;
   padding-left: 16px;
 }
+
 .nav__list {
   margin-right: 8px;
   display: flex;
   flex-direction: row;
   align-items: center;
 }
+
 .nav__item {
   margin-right: 16px;
 }
+
 .nav__item:last-child {
   margin-right: 0px;
 }
+
 .nav__item-about {
   margin-right: 32px;
 }
+
 .nav__item-icon {
   margin-right: 4px;
 }
+
 .nav__item_icon-text {
   margin-right: 12px;
   display: flex;
 }
+
 .nav__item-btn-2 {
   padding-left: 16px;
   padding-right: 16px;
@@ -455,6 +494,7 @@ a {
   height: 40px;
   align-items: center;
 }
+
 .nav__item-btn-1 {
   display: flex;
   flex-direction: row;
@@ -463,10 +503,12 @@ a {
   height: 40px;
   width: 135px;
 }
+
 .nav__buttons {
   display: flex;
   flex-direction: row;
 }
+
 .nav__btn-card {
   width: 100px;
   height: 42px;
@@ -476,6 +518,7 @@ a {
   box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.08);
   margin-right: 16px;
 }
+
 .nav__btn {
   width: 159px;
   height: 42px;
@@ -489,6 +532,7 @@ a {
   display: flex;
   flex-direction: row;
 }
+
 .second-section__left-wrapper {
   display: flex;
   flex-direction: column;
@@ -496,20 +540,23 @@ a {
   height: 686px;
   justify-content: flex-end;
 }
+
 .second-section__text-container {
   width: 560px;
   height: 367px;
 }
+
 .second-section__text-container_wrapper {
   display: flex;
   justify-content: center;
   margin-bottom: 29px;
 }
+
 .second-section__top-text {
   display: flex;
   align-items: center;
   justify-content: center;
-  font-family: "Roboto";
+  font-family: 'Roboto';
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
@@ -521,10 +568,11 @@ a {
   border-radius: 32px;
   margin-bottom: 20px;
 }
+
 .second-section__title {
   width: 516px;
   height: 135px;
-  font-family: "Roboto";
+  font-family: 'Roboto';
   font-style: normal;
   font-weight: 400;
   font-size: 56px;
@@ -532,8 +580,9 @@ a {
   color: #2A2C1F;
   margin-bottom: 21px;
 }
+
 .second-section__desc {
-  font-family: "Roboto";
+  font-family: 'Roboto';
   font-style: normal;
   font-weight: 400;
   width: 503px;
@@ -543,11 +592,13 @@ a {
   color: #65665C;
   margin-bottom: 21.41px;
 }
+
 .second-section__input-search {
   position: relative;
   width: 485px;
   height: 50px;
 }
+
 .second-section__input-search input {
   width: 310px;
   height: 48px;
@@ -557,7 +608,7 @@ a {
   border-radius: 6px;
   padding-left: 56px;
   margin-right: 16px;
-  font-family: "Roboto";
+  font-family: 'Roboto';
   font-style: normal;
   font-weight: 400;
   font-size: 20px;
@@ -565,6 +616,7 @@ a {
   /* identical to box height, or 150% */
   color: #65665C;
 }
+
 .second-section__input-search button {
   width: 154px;
   height: 50px;
@@ -572,48 +624,153 @@ a {
   border: 1px solid #CF6F49;
   border-radius: 6px;
   color: #FFFFFF;
-  font-family: "Roboto";
+  font-family: 'Roboto';
   font-style: normal;
   font-weight: 400;
   font-size: 20px;
   line-height: 30px;
 }
+
 .second-section__icon-box {
   position: absolute;
   top: 16px;
   left: 19px;
 }
+
 .second-section__first-img {
   margin-bottom: 12.58px;
   height: 146px;
 }
+
 .second-section__second-img {
   display: flex;
   justify-content: flex-end;
   height: 135px;
 }
+
 .second-section__right-wrapper {
   display: flex;
 }
 
-.third-section__content-box {
+.third-section__head {
   height: 118px;
   display: flex;
   justify-content: space-between;
   align-items: flex-end;
+  margin-bottom: 128px;
 }
-.third-section__content-box p {
+
+.third-section__head p {
   display: flex;
   align-items: flex-end;
 }
-.third-section__img-box {
+
+.third-section__logos {
   height: 54px;
   display: flex;
   align-items: center;
 }
-.third-section__img-box img {
+
+.third-section__logo {
   margin-right: 32px;
 }
-.third-section__img-box img:last-child {
+
+.third-section__logo:last-child {
   margin-right: 0px;
-}/*# sourceMappingURL=style.css.map */
+}
+
+.main {
+  min-height: 482px;
+}
+
+.main__head-wrapper {
+  margin: 0 auto;
+  width: 768px;
+  height: 127px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin-bottom: 64px;
+}
+
+.main__head-title {
+  text-align: center;
+  margin-bottom: 21px;
+}
+
+.main__head-desc {
+  text-align: center;
+}
+
+.main__body-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  min-height: 291px;
+}
+
+.main__body-item {
+  width: 405px;
+  min-height: 291px;
+  padding-top: 49px;
+  padding-bottom: 47px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-right: 32px;
+  background: #FFFFFF;
+  border: 1px solid #E7E8E3;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.08);
+  border-radius: 16px;
+}
+
+.main__body-item:last-child {
+  margin-right: 0px;
+}
+
+.main__body-title {
+  margin-bottom: 17px;
+}
+
+.main__body-img {
+  margin-bottom: 24px;
+}
+
+.title_size {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 34px;
+  color: #2A2C1F;
+}
+
+.desc_size {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  /* or 150% */
+  text-align: center;
+  color: #65665C;
+}
+
+.title {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 58px;
+  color: #2A2C1F;
+}
+
+.desc {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
+  text-align: center;
+  color: #65665C;
+}
