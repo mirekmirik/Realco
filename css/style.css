@@ -528,12 +528,12 @@ a {
   color: #ffffff;
 }
 
-.second-section__content-wrapper {
+.first-section__content-wrapper {
   display: flex;
   flex-direction: row;
 }
 
-.second-section__left-wrapper {
+.first-section__left-wrapper {
   display: flex;
   flex-direction: column;
   width: 720px;
@@ -541,18 +541,18 @@ a {
   justify-content: flex-end;
 }
 
-.second-section__text-container {
+.first-section__text-container {
   width: 560px;
   height: 367px;
 }
 
-.second-section__text-container_wrapper {
+.first-section__text-container_wrapper {
   display: flex;
   justify-content: center;
   margin-bottom: 29px;
 }
 
-.second-section__top-text {
+.first-section__top-text {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -569,7 +569,7 @@ a {
   margin-bottom: 20px;
 }
 
-.second-section__title {
+.first-section__title {
   width: 516px;
   height: 135px;
   font-family: 'Roboto';
@@ -581,7 +581,7 @@ a {
   margin-bottom: 21px;
 }
 
-.second-section__desc {
+.first-section__desc {
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 400;
@@ -593,13 +593,13 @@ a {
   margin-bottom: 21.41px;
 }
 
-.second-section__input-search {
+.first-section__input-search {
   position: relative;
   width: 485px;
   height: 50px;
 }
 
-.second-section__input-search input {
+.first-section__input-search input {
   width: 310px;
   height: 48px;
   background: #FFFFFF;
@@ -617,7 +617,7 @@ a {
   color: #65665C;
 }
 
-.second-section__input-search button {
+.first-section__input-search button {
   width: 154px;
   height: 50px;
   background-color: #CF6F49;
@@ -631,28 +631,28 @@ a {
   line-height: 30px;
 }
 
-.second-section__icon-box {
+.first-section__icon-box {
   position: absolute;
   top: 16px;
   left: 19px;
 }
 
-.second-section__first-img {
+.first-section__first-img {
   margin-bottom: 12.58px;
   height: 146px;
 }
 
-.second-section__second-img {
+.first-section__second-img {
   display: flex;
   justify-content: flex-end;
   height: 135px;
 }
 
-.second-section__right-wrapper {
+.first-section__right-wrapper {
   display: flex;
 }
 
-.third-section__head {
+.second-section__head {
   height: 118px;
   display: flex;
   justify-content: space-between;
@@ -660,27 +660,28 @@ a {
   margin-bottom: 128px;
 }
 
-.third-section__head p {
+.second-section__head p {
   display: flex;
   align-items: flex-end;
 }
 
-.third-section__logos {
+.second-section__logos {
   height: 54px;
   display: flex;
   align-items: center;
 }
 
-.third-section__logo {
+.second-section__logo {
   margin-right: 32px;
 }
 
-.third-section__logo:last-child {
+.second-section__logo:last-child {
   margin-right: 0px;
 }
 
 .main {
   min-height: 482px;
+  margin-bottom: 128px;
 }
 
 .main__head-wrapper {
@@ -736,6 +737,46 @@ a {
   margin-bottom: 24px;
 }
 
+.third-section__wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.third-section__left-wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.third-section__text-container {
+  height: 318.83px;
+  width: 600px;
+}
+
+.third-section__header-text {
+  width: 107px;
+  height: 29px;
+  margin-bottom: 20px;
+}
+
+.third-section__title {
+  width: 453px;
+  margin-bottom: 28px;
+}
+
+.third-section__desc {
+  width: 520px;
+  margin-bottom: 21.41px;
+}
+
+.third-section__buttons {
+  display: flex;
+  align-items: center;
+}
+
+.third-section__btn {
+  margin-right: 24px;
+}
+
 .title_size {
   font-family: 'Roboto';
   font-style: normal;
@@ -771,6 +812,52 @@ a {
   font-weight: 400;
   font-size: 18px;
   line-height: 27px;
-  text-align: center;
   color: #65665C;
+}
+
+.header-text {
+  background: #E7E8E3;
+  border-radius: 32px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  color: #2A2C1F;
+}
+
+.btn_m {
+  width: 192px;
+  height: 50px;
+  background: #FFFFFF;
+  border: 1px solid #E7E8E3;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.08);
+  border-radius: 6px;
+}
+
+.contact {
+  width: 130px;
+  height: 40px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  color: #2A2C1F;
+}
+
+.btn_s {
+  width: 130px;
+  height: 40px;
+}
+
+.contact__text {
+  width: 110px;
+  height: 24px;
+  text-align: center;
 }
