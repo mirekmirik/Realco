@@ -12,15 +12,15 @@ a
 
 
 .container-full
-    max-width: 1440px
+    width: 1440px
     margin: 0 auto
 
 .container
-    max-width: 1280px
+    width: 1280px
     margin: 0 auto
 
 .banner
-    max-width: 1440px
+    max-width: 100%
     margin: 0 auto
     height: 40px
     background-color: #939878
@@ -376,7 +376,7 @@ a
     font-size: 14px
     line-height: 21px
     color: #2A2C1F
-
+    text-align: center
    
 
 .btn_m
@@ -407,8 +407,13 @@ a
     line-height: 24px
     color: #2A2C1F
 
+.contact__text--big
+    width: 130px
+    height: 40px
+
 
 .fourth-section
+    margin-bottom: 128px
     &__wrapper
         display: flex
         flex-direction: row
@@ -478,8 +483,385 @@ a
     width: 600px
     height: 50px
 
-.contact__text--big
+.contact__text--s
     width: 110px
     height: 24px
 
+
+
+.offer-section
+    &__content-container
+        position: relative
+        max-width: 1440px
+        margin: 0 auto
+        height: 1559px
+    &__vector--right
+        position: absolute
+        right: 0px
+    &__vector--bottom
+        position: absolute
+        bottom: 0px
+    // &__header-wrapper
+    &__header-text
+        width: 92px
+        text-align: center
+        margin-bottom: 21px
+    &__title
+        width: 643px
+        text-align: center
+        margin-bottom: 81.83px
+    &__container
+        padding-top: 128px
+    
+
+
+.header-wrapper
+    display: flex
+    flex-direction: column
+    align-items: center
+
+
+.main-wrapper
+    &__item
+        height: 460px
+        background: #FFFFFF
+        box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.08)
+        border-radius: 12px
+        margin-right: 32px
+        margin-bottom: 31px
+        &:nth-child(3n+3)
+             margin-right: 0px  
+        &:nth-last-child(-n+3)
+            margin-bottom: 0px
+            
+    &__card
+        height: 460px
+        background: #FFFFFF
+        box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.08)
+        border-radius: 12px
+    &__items
+        display: flex
+        flex-wrap: wrap
+        margin-bottom: 80px
+    &__footer
+        display: flex
+        flex-direction: row
+        justify-content: center
+        align-items: center
+    &__contact
+        display: flex
+        align-items: flex-end
+    &__btn
+        margin-right: 24px
+        
+
+
+.desc-wrapper
+    height: 192px
+    padding: 24px
+
+    &__text
+        margin-bottom: 16px
+    &__title
+        font-family: 'Roboto'
+        font-style: normal
+        font-weight: 700
+        font-size: 24px
+        line-height: 34px
+        color: #2A2C1F
+        margin-bottom: 3px
+    &__price
+        font-family: 'Roboto'
+        font-style: normal
+        font-weight: 700
+        font-size: 18px
+        line-height: 27px
+        color: #2A2C1F
+    &__footer
+        display: flex
+        flex-direction: row
+        align-items: center
+        height: 24px
+    &__icon
+        margin-right: 24px
+        display: flex
+        align-items: center
+
+.icon
+    &__img
+        margin-right: 10px
+    &__text
+        font-family: 'Roboto'
+        font-style: normal
+        font-weight: 400
+        font-size: 16px
+        line-height: 24px
+        color: #65665C
+
+
+.geo
+    display: flex
+    align-items: center
+    margin-bottom: 16px
+    &__box
+        display: flex
+        justify-content: center
+        align-items: center
+        width: 16px
+        height: 24px
+        margin-right: 10px
+    &__img
+        // display: flex
+        // justify-content: center
+        // 
+        // padding-left: 2px
+    &__text
+        font-family: 'Roboto'
+        font-style: normal
+        font-weight: 400
+        font-size: 16px
+        line-height: 24px
+        color: #65665C
+
+.location-section
+    height: 741px
+    &__container
+        height: 741px
+    &__top-header
+        // width: 768px
+        margin-bottom: 80px
+    &__footer
+        display: flex
+        justify-content: center
+        align-items: center
+    &__btn
+        margin-right: 24px
+
+
+.top-header
+    text-align: center
+
+.location
+    display: flex
+    flex-wrap: wrap
+    margin-bottom: 80px
+    &__item
+        margin-right: 16px
+        width: 416px
+        height: 130px
+        background: #FFFFFF
+        border: 1px solid #E7E8E3
+        box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.08)
+        border-radius: 16px
+        padding: 33px 0px 33px 33px
+        &:nth-child(3n+3)
+             margin-right: 0px  
+        &:nth-last-child(-n+3)
+            margin-bottom: 0px
+    &__title
+        margin-bottom: 12px
+        font-family: 'Roboto'
+        font-style: normal
+        font-weight: 700
+        font-size: 20px
+        line-height: 28px
+        color: #2A2C1F
+    &__text
+        font-family: 'Roboto'
+        font-style: normal
+        font-weight: 400
+        font-size: 16px
+        line-height: 24px
+        text-align: center
+        color: #2A2C1F
+
+    &__view-properties
+        display: flex
+        flex-direction: row
+        align-items: center
+   
+
+.icon-box
+    width: 16px
+    height: 24px
+    display: flex
+    justify-content: center
+    align-items: center
+
+
+.families-section__title--white
+    color: #FFFFFF
+
+.families-section__desc--white
+    color: #E7E8E3
+
+
+.families-section
+    &__container
+        // display: flex
+        // flex-direction: row
+        // justify-content: center
+        // align-items: center
+    &__card
+        background: #65665C
+        border-radius: 24px   
+        height: 465px 
+        display: flex
+        justify-content: center
+        align-items: center
+        // width: 273px
+    &__text
+        display: flex
+        flex-direction: column
+        align-items: center
+    &__title
+        // margin-bottom: 29px
+        // margin-bottom: 2.2265%
+        margin-bottom: 29px
+    &__desc
+        width: 765px
+        text-align: center
+        margin-bottom: 21px
+    &__icon-wrapper
+        display: flex
+        justify-content: center
+        align-items: center
+        background: #FFFFFF
+        border-radius: 8px
+        width: 48px
+        height: 48px
+        margin-bottom: 13px
+    &__btn
+        border: 1px solid #CF6F49
+        border-radius: 6px
+        width: 137px
+        height: 50px
+        padding: 0
+        color: #FFFFFF
+
+
+
+.text-center
+    display: flex
+    flex-direction: column
+    align-items: center
+
+
+.btn--orange
+    background: #CF6F49
+
+
+
+
+.reviews-section
+    &__container
+        height: 833px
+    &__text-center
+        padding-top: 12.2765%
+        margin-bottom: 6.25%
+    &__title
+        margin-bottom: 2.03125%
+
+.review
+    display: flex
+    flex-direction: row
+    height: 39%
+    width: 100%
+    &__card
+        background: #FFFFFF
+        border: 1px solid #E7E8E3
+        box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.08)
+        border-radius: 16px
+        width: 31.64%
+        // padding-top: 33px
+        padding: 2.578% 2.568% 0 2.588%
+        margin-right: 2.5%
+        &:last-child
+            margin-right: 0px
+    &__desc
+        padding-bottom: 8.5%
+        &--last
+            padding-bottom: 16.51%
+            
+    &__desc-text
+        font-family: 'Roboto'
+        font-style: normal
+        font-weight: 400
+        font-size: 1.13em
+        line-height: 150%
+        color: #2A2C1F
+    &__score
+        margin-bottom: 8.35%
+    &__avatar
+        display: flex
+        flex-direction: row
+    &__name-text
+        font-family: 'Roboto'
+        font-style: normal
+        font-weight: 700
+        font-size: 16px
+        line-height: 24px
+        color: #2A2C1F
+    &__job-text
+        font-family: 'Roboto'
+        font-style: normal
+        font-weight: 400
+        font-size: 16px
+        line-height: 24px
+        color: #65665C
+    &__img
+        margin-right: 16px
+
+        
+
+        
+    &__desc
+        // width: 83.785%
+        // height: 184px
+        // padding-top: 24.615%
+    &__score
+        // margin-bottom: 7.998%
+
+
+
+.latest-section
+    &__header
+        margin-bottom: 80px
+        display: flex
+        flex-direction: row
+    &__header-text
+        width: 53px
+        height: 29px
+        margin-bottom: 21px
+    &__wrapper-text
+        width: 60%
+    &__header-title
+        margin-bottom: 29px
+    &__wrapper-btn
+        width: 40%
+        display: flex
+        justify-content: flex-end
+        align-items: flex-end
+    &__btn
+        width: 108px
+        height: 50px
+    &__items
+        display: flex
+        flex-direction: row
+    &__item
+        // height: 531px
+    
+
+.btn--white
+    background: #FFFFFF
+    border: 1px solid #E7E8E3
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.08)
+    border-radius: 6px
+
+
+.header-text--grey
+    background:#E7E8E3
+
+
+//latest-section
 
